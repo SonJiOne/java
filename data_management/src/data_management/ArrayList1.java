@@ -19,8 +19,9 @@ public class ArrayList1 {
 	
 	static ArrayList<PhoneItem> phonelist = new ArrayList<PhoneItem>();
 	
-    public static void main(String[] args) throws IOException {
-      
+    public static void main(String[] args) throws IOException 
+	    
+       #메모장에 저장해둔 파일
        String filePath = "C:/Users/opkln/eclipse-workspace/data.txt";
        
        File file = new File(filePath);
